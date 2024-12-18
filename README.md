@@ -2,13 +2,13 @@
 
 ## フォルダ構成
 
-### assets
+### assets/
 実験用の刺激画像が入ったフォルダ
 
-### data
+### data/
 実験結果のデータ
 
-### mypackage
+### mypackage/
 直接実行しないプログラム
 
 ## 資料
@@ -21,14 +21,22 @@
 **(ダブルクリックでスタート)**  
 ※ 「Ctrl+C」を押してから，「L」を押すなどして次の画面に進めるとプログラムが強制的に終了します。
 
-- **experiment_A.py**  
-  実験A
+- 実験A
+```bash
+python experiment_A.py
+```
 
-- **experiment_B.py**  
-  実験B
+- 実験B
+```bash
+python experiment_B.py
+```
 
-- **test.py**  
-  デバッグ用
+- デバッグ用
+```bash
+python test.py
+```
 
-- **trail.py**  
-  被験者の練習用
+- 被験者の練習用
+```bash
+python trail.py
+```
